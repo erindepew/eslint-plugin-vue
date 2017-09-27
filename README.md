@@ -147,7 +147,7 @@ The `--fix` option on the command line automatically fixes problems reported by 
 | :wrench: | [no-multi-spaces](./docs/rules/no-multi-spaces.md) | disallow multiple spaces |
 | :wrench: | [v-bind-style](./docs/rules/v-bind-style.md) | enforce `v-bind` directive style |
 | :wrench: | [v-on-style](./docs/rules/v-on-style.md) | enforce `v-on` directive style |
-
+| :wrench: | [attribute-order](./docs/rules/attribute-order.md) | enforce alphabetical ordering of properties and prioritizing vue-specific attributes |
 
 ### Variables
 
