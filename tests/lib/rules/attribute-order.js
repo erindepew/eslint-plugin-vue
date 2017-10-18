@@ -18,10 +18,10 @@ var RuleTester = require('eslint').RuleTester
 
 var tester = new RuleTester({
   parser: 'vue-eslint-parser',
-  parserOptions: {ecmaVersion: 2015}
+  parserOptions: { ecmaVersion: 2015 }
 })
-tester.run('attribute-order', rule, {
 
+tester.run('attribute-order', rule, {
   valid: [
     {
       filename: 'test.vue',
